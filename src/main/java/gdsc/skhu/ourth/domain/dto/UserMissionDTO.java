@@ -53,6 +53,8 @@ public class UserMissionDTO {
 
         private LocalDateTime createDate;
 
+        private Long missionId;
+
         private String text;
 
         private Long point;

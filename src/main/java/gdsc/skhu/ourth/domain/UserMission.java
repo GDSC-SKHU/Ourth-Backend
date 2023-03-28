@@ -41,6 +41,7 @@ public class UserMission extends BaseTime {
                 .id(id)
                 .text(mission.toResponseDTO().getText())
                 .point(mission.toResponseDTO().getPoint())
+                .missionId(mission.getId())
                 .status(status)
                 .createDate(getCreateDate())
                 .build();
