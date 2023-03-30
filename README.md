@@ -21,12 +21,12 @@ This component is responsible for storing and retrieving application data. We us
 - This component is responsible for user authentication and authorization. We used Firebase Admin SDK to link email/password authentication with our backend APIs.
 - Anyone can sign up with any email address, but they need to click on the authentication link sent to that email in order to log in properly.
 
-1. SignUp
-![signup.png](img/signup.png)
+1. SignUp  
+<img src="img/signup.png" alt="signupImg" width=310 height=590>  
 2. Email Verifylink click
-![img.png](img/verifyeamil.png)
-3. SignIn
-![img.png](img/signinHome.png)
+<img src="img/verifyemail.png" alt="verifyemailImg" width=310 height=350>  
+3. SignIn  
+<img src="img/signinHome.png" alt="signinHomeImg" width=310 height=590>
 
 ## Google Cloud Platform
 The backend server was deployed using Google Cloud Platform.
