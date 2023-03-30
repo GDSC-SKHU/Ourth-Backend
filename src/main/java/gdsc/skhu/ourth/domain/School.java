@@ -2,6 +2,7 @@ package gdsc.skhu.ourth.domain;
 
 import gdsc.skhu.ourth.domain.dto.SchoolDTO;
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

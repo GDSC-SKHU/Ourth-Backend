@@ -42,8 +42,10 @@ public class User extends BaseTime implements UserDetails {
     private Long point; // 기여 포인트
 
     @OneToMany(mappedBy = "user")
+    @Builder.Default
     private List<UserMission> userMissions = new ArrayList<>(); // 유저 주간 미션 목록
 
+    @Builder.Default
     @OneToMany(mappedBy = "user")
     private List<Badge> badges = new ArrayList<>(); // 뱃지 목록
 
