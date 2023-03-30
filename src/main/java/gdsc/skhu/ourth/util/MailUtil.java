@@ -19,15 +19,15 @@ public class MailUtil {
         message.setTo(mailAddress);
 
         // 메일 제목
-        message.setSubject("Ourth 인증 메일입니다.");
+        message.setSubject("[Ourth] Verification Mail");
 
         // 메일 내용
-        message.setText("안녕하세요" + "\n\n" +
-                "다음 링크를 통해 이메일 주소를 인증하세요." + "\n" +
+        message.setText("Hi" + "\n\n" +
+                "Please verify your email through the following link." + "\n" +
                 link + "\n\n" +
-                "Ourth App의 인증을 요청하지 않았다면," + "\n" +
-                "이 이메일을 무시하셔도 됩니다." + "\n\n" +
-                "감사합니다.");
+                "If you did not request authentication for the Ourth App," + "\n" +
+                "you can ignore this email.\n" + "\n\n" +
+                "Thank you.");
 
         // 메일 전송
         mailSender.send(message);
