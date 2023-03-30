@@ -61,6 +61,8 @@ public class UserMissionDTO {
 
         private Boolean status;
 
+        private LocalDateTime modifiedDate; // 최근 수정 날짜 === 클리어 날짜
+
     }
 
 }
