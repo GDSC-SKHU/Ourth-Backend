@@ -2,6 +2,7 @@ package gdsc.skhu.ourth.domain;
 
 import gdsc.skhu.ourth.domain.dto.SchoolDTO;
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -20,6 +21,7 @@ public class School {
     private String schoolName;
 
     @OneToMany(mappedBy = "school")
+    @Builder.Default
     private List<User> users = new ArrayList<>();
 
     public SchoolDTO.Response toResponseDTO() {
