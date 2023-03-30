@@ -33,9 +33,6 @@ public class SchoolService {
             // 해당 학교의 소속된 유저의 포인트를 모두 합산
             Long totalPoint = 0L;
             for(User user : school.getUsers()) {
-                // 관리자 계정은 합산 X
-                if(user.getId() == 1)
-                    continue;
                 totalPoint += user.getPoint();
             }
 
