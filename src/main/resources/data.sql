@@ -17,6 +17,12 @@ values ('Turn off the lights for 1 hour', 200),
        ('No straws in cafes', 200),
        ('Going out with a tumbler today', 200),
        ('Learn to cook and try', 200),
+       ('Delete unnecessary emails', 100),
+       ('Turn off electronics and unplug chargers when not in use', 100),
+       ('Use reusable containers for food storage instead of plastic wrap', 200),
+       ('Reduce meat consumption by having a "Meatless Monday"', 200),
+       ('Take public transportation or carpool instead of driving alone', 200),
+
        ('Maintaining the right room temperature', 200);
 
 insert into school(school_name)
