@@ -1,12 +1,48 @@
 # Ourth-Backend
 GDSC Solution Challenge 2023
 
+# Beacause It's Ours
+![img.png](img/ourth.png)
+
 ## Ourth-Info
 <B>"Ourth"</B> means <B>"Our + Earth."</B>    
 Providing daily-friendly solutions and content for individuals to protect the Ourth.
 
 ## Ourth-Goal
 The goal of our project is to promote the fact that even individuals can be sufficient to take care of "our earth" and to encourage a sense of collective responsibility to protect it as something that belongs to all of us.
+
+## Ourth-Feature
+<details>
+<summary>Missions</summary>
+
+1. We provide missions that individuals can easily contribute to the environment of the Ourth.
+2. There are various missions, and four of them are randomly given each week.
+3. You can receive a badge by completing all the missions for the week, and the completed missions and badges can be viewed in the "Achievement" section.
+</details>
+<details>
+<summary>Ranking</summary>
+
+1. Students can participate in friendly competition with other schools based on the total contribution points, and they can feel a sense of belonging.
+2. Currently, only universities in Korea affiliated with GDSC can participate.
+</details>
+<details>
+<summary>Tips</summary>
+
+1. The 'Tips' section collects information on environmental tips, news, and campaigns.
+</details>
+<details>
+<summary>Achievement</summary>
+
+1. The 'Achievement' section, you can see your actions of protecting the Ourth.
+2. You can see the missions you have completed so far and the number of badges you have earned.
+</details>
+<details>
+<summary>Ourth-chat (Preparing)</summary>
+
+1. We are brainstorming content to have conversations with the Earth that feel alive.
+2. The Earth will be aware of our completed missions, badges earned, and news we have read. Our goal is to form a connection between the user and the Earth, and to inspire a desire to protect the Ourth.
+3. We are exploring the use of Google's Bard or OpenAI's chatgpt
+</details>
 
 ## Backend-API
 Providing RESTful APIs to the frontend for CRUD operations, authentication, and authorization. We used Spring Boot and Java to build the backend APIs.
@@ -21,12 +57,16 @@ This component is responsible for storing and retrieving application data. We us
 - This component is responsible for user authentication and authorization. We used Firebase Admin SDK to link email/password authentication with our backend APIs.
 - Anyone can sign up with any email address, but they need to click on the authentication link sent to that email in order to log in properly.
 
+<details>
+<summary>Example</summary>
+
 1. SignUp  
-<img src="img/signup.png" alt="signupImg" width=310 height=590>  
+   <img src="img/signup.png" alt="signupImg" width=310 height=590>
 2. Email Verifylink click
-<img src="img/verifyemail.png" alt="verifyemailImg" width=310 height=350>  
+   <img src="img/verifyemail.png" alt="verifyemailImg" width=310 height=350>
 3. SignIn  
-<img src="img/signinHome.png" alt="signinHomeImg" width=310 height=590>
+   <img src="img/signinHome.png" alt="signinHomeImg" width=310 height=590>
+</details>
 
 ## Google Cloud Platform
 The backend server was deployed using Google Cloud Platform.
