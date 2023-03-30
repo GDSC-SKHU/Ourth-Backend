@@ -21,7 +21,6 @@ public class School {
     private String schoolName;
 
     @OneToMany(mappedBy = "school")
-    @Builder.Default
     private List<User> users = new ArrayList<>();
 
     public SchoolDTO.Response toResponseDTO() {

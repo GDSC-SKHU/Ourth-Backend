@@ -19,7 +19,7 @@ public class MailUtil {
         message.setTo(mailAddress);
 
         // 메일 제목
-        message.setSubject("[Ourth] Verification Mail");
+        message.setSubject("[Ourth-project] Verification Mail");
 
         // 메일 내용
         message.setText("Hi" + "\n\n" +
