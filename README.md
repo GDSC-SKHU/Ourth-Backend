@@ -76,8 +76,12 @@ Providing RESTful APIs to the frontend for CRUD operations, authentication, and 
 ## Backend-DB
 This component is responsible for storing and retrieving application data. We used MySQL as our database.
 
-## DB ERD
-![DB ERD.png](img/ERD.png)
+<details>
+<summary>DB ERD</summary>
+
+1. DB ERD  
+<img src="img/ERD.png" alt="ERDImg" width=600 height=380><br/>
+</details>
 
 ## Authentication-Firebase
 - This component is responsible for user authentication and authorization. We used Firebase Admin SDK to link email/password authentication with our backend APIs.
