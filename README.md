@@ -9,6 +9,8 @@ GDSC Solution Challenge 2023
 Providing daily-friendly solutions and content for individuals to protect the Ourth.
 
 ## Ourth-Goal
+<img src = "https://developers.google.com/static/community/images/gdsc-solution-challenge/goal-13_480.png" style="width:250px"/><br/>
+We set the goal of 13. CLIMATE ACTION and targeted students around the world.<br/>  
 The goal of our project is to promote the fact that even individuals can be sufficient to take care of "our earth" and to encourage a sense of collective responsibility to protect it as something that belongs to all of us.
 
 ## Ourth-Feature
