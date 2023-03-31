@@ -20,11 +20,11 @@ The goal of our project is to promote the fact that even individuals can be suff
 - You can receive a badge by completing all the missions for the week, and the completed missions and badges can be viewed in the "Achievement" section.
 
 1. Week Mission  
-<img src="img/mission.png" alt="missionImg" width=310 height=590>  
+<img src="img/mission.png" alt="missionImg" width=310 height=590></br>
 2. Complete  
-<img src="img/missionComplete.png" alt="missionCompleteImg" width=310 height=370>  
+<img src="img/missionComplete.png" alt="missionCompleteImg" width=310 height=370></br>
 3. All Complete & Badge  
-<img src="img/badge.png" alt="badgeImg" width=310 height=300>  
+<img src="img/badge.png" alt="badgeImg" width=310 height=300></br>
 </details>
 <details>
 <summary>Ranking</summary>
@@ -33,9 +33,9 @@ The goal of our project is to promote the fact that even individuals can be suff
 - Currently, only universities in Korea affiliated with GDSC can participate.  
 
 1. Our School Ranking  
-<img src="img/clickRank.png" alt="clickRankImg" width=310 height=160>  
+<img src="img/clickRank.png" alt="clickRankImg" width=310 height=160></br>
 2. All Ranking & Our School Ranking  
-<img src="img/ranking.png" alt="rankingImg" width=310 height=380>  
+<img src="img/ranking.png" alt="rankingImg" width=310 height=380></br>
 </details>
 <details>
 <summary>Tips</summary>
@@ -43,9 +43,9 @@ The goal of our project is to promote the fact that even individuals can be suff
 - The 'Tips' section collects information on environmental tips, news, and campaigns.
 
 1. Tips  
-<img src="img/tips.png" alt="tipsImg" width=310 height=320>  
+<img src="img/tips.png" alt="tipsImg" width=310 height=320></br>
 2. Details  
-<img src="img/details.png" alt="detailsImg" width=310 height=480>  
+<img src="img/details.png" alt="detailsImg" width=310 height=480></br>
 </details>
 <details>
 <summary>Achievement</summary>
@@ -54,9 +54,9 @@ The goal of our project is to promote the fact that even individuals can be suff
 - You can see the missions you have completed so far and the number of badges you have earned.
 
 1. Click Menu  
-<img src="img/achieve.png" alt="achieveImg" width=310 height=440>
+<img src="img/achieve.png" alt="achieveImg" width=310 height=440></br>
 2. Achievement  
-<img src="img/achievement.png" alt="achievementImg" width=310 height=440>  
+<img src="img/achievement.png" alt="achievementImg" width=310 height=440></br>
 </details>
 <details>
 <summary>Ourth-chat (Preparing)</summary>
@@ -66,7 +66,7 @@ The goal of our project is to promote the fact that even individuals can be suff
 - We are exploring the use of Google's Bard or OpenAI's chatgpt
 
 1. Example  
-<img src="img/ourthChat.png" alt="ourthChatImg" width=310 height=610>  
+<img src="img/OurthChat.png" alt="OurthChatImg" width=310 height=610></br>
 
 </details>
 
@@ -76,8 +76,12 @@ Providing RESTful APIs to the frontend for CRUD operations, authentication, and 
 ## Backend-DB
 This component is responsible for storing and retrieving application data. We used MySQL as our database.
 
-## DB ERD
-![DB ERD.png](img/ERD.png)
+<details>
+<summary>DB ERD</summary>
+
+1. DB ERD  
+<img src="img/ERD.png" alt="ERDImg" width=600 height=380><br/>
+</details>
 
 ## Authentication-Firebase
 - This component is responsible for user authentication and authorization. We used Firebase Admin SDK to link email/password authentication with our backend APIs.
@@ -87,13 +91,13 @@ This component is responsible for storing and retrieving application data. We us
 <summary>Example</summary>
 
 1. SignUp  
-   <img src="img/signup.png" alt="signupImg" width=310 height=590>  
+   <img src="img/signup.png" alt="signupImg" width=310 height=590></br>
 2. Email Verifylink click  
-   <img src="img/verifyemail.png" alt="verifyemailImg" width=310 height=350>  
+   <img src="img/verifyemail.png" alt="verifyemailImg" width=310 height=350></br>
 3. SignIn  
-   <img src="img/signinHome.png" alt="signinHomeImg" width=310 height=590>  
+   <img src="img/signinHome.png" alt="signinHomeImg" width=310 height=590></br>
 </details>
-![img.png](img.png)
+
 ## Google Cloud Platform
 The backend server was deployed using Google Cloud Platform.
 
