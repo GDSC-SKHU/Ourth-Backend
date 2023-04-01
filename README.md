@@ -119,6 +119,9 @@ The backend server was deployed using Google Cloud Platform.
 - Redis
 - MySQL
 
+## Youtube Link
+[Ourth-GDSC Solution Challenge 2023](https://youtu.be/7p_yKxrUqN0)
+
 ## Ourth-Team
 | [Yehyeok Bang](https://github.com/yehyeokBang) |[Seongeun Kwak](https://github.com/HYEALL)|  [Shinah Kim](https://github.com/sinamong0620)  | [Eunchong Kim](https://github.com/rltgjqmtkdydwk) |
 |:----------------------------------------------:|:---:|:-----------------------------------------------:|:-------------------------------------------------:|
