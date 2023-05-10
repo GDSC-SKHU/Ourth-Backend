@@ -225,7 +225,7 @@ public class UserService {
 
         // 회원가입 취소 작업, 24시간 동안 이메일 인증을 하지 않은 경우
         // Firebase, DB에 저장된 유저 정보 삭제 -> 회원가입은 없던 일처럼
-        scheduleUtil.executeTask(userRecord, userRepository);
+        scheduleUtil.executeTask(userRecord.getEmail(), userRepository);
 
         return user.getId();
     }
